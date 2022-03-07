@@ -9,18 +9,19 @@
 
 let btn = document.querySelector("button");
 
-window.onscroll = function() {
-    if (window.scrollY >= 600) {
-        btn.style.display = "block";
+window.onscroll = function (){
+    if(window.scrollY >= 600){
+        btn.style.display = "block"
     } else {
-        btn.style.display = "none";
+        btn.style.display = "none"
     }
-};
-
-btn.onclick = function() {
+}
+btn.onclick =function (){
     window.scrollTo({
         left: 0,
         top: 0,
-        behavior: "smooth",
-    });
-};
+        behavior: "smooth"
+    
+    } )
+    
+}

@@ -28,5 +28,5 @@ console.log(myQueryAllElement[1]);
 
 console.log(document.title);
 console.log(document.body);
-console.log(document.forms[0].one.value);
+console.log(document.forms[1].two.value);
 console.log(document.links[1].href);

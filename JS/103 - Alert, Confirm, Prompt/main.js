@@ -8,16 +8,16 @@
 // alert("Test");
 // console.log("Test");
 
-// let confirmMsg = confirm("Are You Sure?");
+let confirmMsg = confirm("Are You Sure?");
 
-// console.log(confirmMsg);
+console.log(confirmMsg);
 
-// if (confirmMsg === true) {
-//     console.log("Item Deleted");
-// } else {
-//     console.log("Item Not Deleted");
-// }
+if (confirmMsg === true) {
+    console.log("Item Deleted");
+} else {
+    console.log("Item Not Deleted");
+}
 
-let promptMsg = prompt("Good Day To You?", "Write Day With 3 Characters");
+// let promptMsg = prompt("Good Day To You?", "Write Day With 3 Characters");
 
-console.log(promptMsg);
+// console.log(promptMsg);

@@ -41,7 +41,10 @@ console.log(newArray);
 //   return element + element;
 // }, 10);
 
-let addSelf = myNums.map((ele) => ele + ele);
+// let addSelf = myNums.map((ele) => ele + ele);
+let addSelf = myNums.map(function(ele) {
+  return ele + ele
+})
 
 console.log(addSelf);
 

@@ -17,13 +17,15 @@ console.log(myElement.innerHTML);
 console.log(myElement.textContent);
 
 myElement.innerHTML = "Text From <span>Main.js</span> File";
-myElement.textContent = "Text From <span>Main.js</span> File";
+// myElement.textContent = "File";
 
 document.images[0].src = "https://google.com";
 document.images[0].alt = "Alternate";
 document.images[0].title = "Picture";
 document.images[0].id = "pic";
 document.images[0].className = "img";
+document.images[0].textContent = "omarsamir";
+document.images[0].style.margin = "25px"
 
 let myLink = document.querySelector("a");
 

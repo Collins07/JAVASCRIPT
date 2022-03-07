@@ -18,5 +18,5 @@ console.log(element.classList.contains("show"));
 console.log(element.classList.item("3"));
 
 element.onclick = function() {
-    element.classList.toggle("show");
+    element.classList.toggle("show", false );
 };

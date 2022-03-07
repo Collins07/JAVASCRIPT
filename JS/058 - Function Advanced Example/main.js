@@ -3,7 +3,7 @@
 */
 
 function sayHello(userName, age) {
-    if (age < 20) {
+    if (age < 20 && userName === "undefined") {
         console.log(`App is Not Suitable For You`);
     } else {
         console.log(`Hello ${userName} Your Age is ${age}`);
@@ -12,15 +12,16 @@ function sayHello(userName, age) {
 
 sayHello("Osama", 38);
 sayHello("Sayed", 40);
-sayHello("Ali", 18);
+sayHello("undefined",18);
 
-function generateYears(start, end, exclude) {
-    for (let i = start; i <= end; i++) {
-        if (i === exclude) {
+function generateYears(start,  end,exclude ){
+    for(let i = start; i <= end ; i++) {
+        if(i == exclude){
             continue;
         }
-        console.log(i);
+        console.log(i)
     }
+
 }
 
 generateYears(1982, 2021, 2020);

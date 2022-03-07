@@ -23,7 +23,7 @@ console.log(result);
 
 console.log(theGender === "Male" ? "Mr" : "Mrs");
 
-console.log(`Hello ${theGender === "Male" ? "Mr" : "Mrs"} ${theName}`);
+console.log(`Hello ${theGender === "Male" ? "Mr" : "Mrs"} ${theName} your age is ${theAge}`);
 
 // theAge < 20 ?
 //     console.log(20) :

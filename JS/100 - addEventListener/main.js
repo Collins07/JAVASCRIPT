@@ -23,7 +23,7 @@ function two() {
     console.log("Message From OnClick 2");
 }
 
-window.onload = "Osama";
+// window.onload = "Osama";
 
 myP.addEventListener("click", function() {
     console.log("Message From OnClick 1 Event");
@@ -37,6 +37,7 @@ myP.addEventListener("click", two);
 myP.onclick = function() {
     let newP = myP.cloneNode(true);
     newP.className = "clone";
+    newP.style.color = "green"
     document.body.appendChild(newP);
 };
 
@@ -46,8 +47,8 @@ myP.onclick = function() {
 //   console.log("Iam Cloned");
 // };
 
-document.addEventListener("click", function(e) {
-    if (e.target.className === "clone") {
+document.addEventListener("click", function(ele) {
+    if (ele.target.className === "clone") {
         console.log("Iam Cloned");
     }
 });

@@ -13,8 +13,11 @@
 let friends = ["Ahmed", "Sameh", "Sayed", "Asmaa", "Amgad", "Israa"];
 
 let filterdFriends = friends.filter(function(el) {
-    return el.startsWith("A") ? true : false;
+    return el = el.startsWith("A")
 });
+// let filterdFriends = friends.map(function (ele) {
+//     return ele.startsWith("A") ? true : false ;
+// })
 
 console.log(filterdFriends);
 

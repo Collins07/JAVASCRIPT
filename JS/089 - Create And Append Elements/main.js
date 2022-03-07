@@ -15,7 +15,7 @@ let myComment = document.createComment("This Is Div");
 myElement.className = "product";
 myElement.setAttributeNode(myAttr);
 myElement.setAttribute("data-test", "Testing");
-
+myAttr.value = "omar"
 // Append Comment To Element
 myElement.appendChild(myComment);
 

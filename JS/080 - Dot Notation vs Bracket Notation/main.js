@@ -14,12 +14,12 @@
 
 const myVar = "country"
 
-const user = {
+let user = {
     theName: "omar",
     country: "egypt",
 };
 
 console.log(user.theName);
 console.log(user.country); // user.country
-console.log(user.myVar); // user.country
+console.log(user.myVar); // user.country // undefined
 console.log(user[myVar]); // user.country

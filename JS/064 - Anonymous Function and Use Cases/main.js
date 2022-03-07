@@ -10,21 +10,21 @@
 let calculator = function(num1, num2) {
     return num1 + num2;
 };
-
 console.log(calculator(10, 20));
 
 function sayHello() {
     console.log("Hello Osama");
 }
 
-document.getElementById("show").onclick = sayHello;
+document.querySelector("#show").onclick = sayHello
 
 setTimeout(function() {
     console.log("Good");
+   
 }, 2000);
 
 
 
 setTimeout(function() {
-    console.log("f")
+    console.log("not good")
 }, 3000)

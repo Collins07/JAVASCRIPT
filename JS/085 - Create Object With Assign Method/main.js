@@ -7,7 +7,7 @@ let obj1 = {
     prop1: 1,
 
     meth1: function() {
-        return this.prop1;
+        return obj1.prop1;
     },
 };
 
@@ -30,6 +30,7 @@ finalObject.prop4 = 4;
 
 console.log(finalObject);
 
-let newObject = Object.assign(obj1, { prop5: 5, prop6: 6 });
+let newObject = Object.assign(obj1, { prop1: 5, prop6: 6 });
 
 console.log(newObject);
+console.log(newObject.meth1())

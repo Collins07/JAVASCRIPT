@@ -11,5 +11,4 @@
   Search [For Advanced Knowledge]
   - pushState() + replaceState()
 */
-
 console.log(history);

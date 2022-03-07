@@ -9,7 +9,9 @@
 */
 
 function sayHello(name ,age) {
-    console.log(name.slice(0,3).toUpperCase()  )
+    console.log(`${name} and my age is ${age}`)
+
+    
 }
 function hello (name1){
   console.log(`${name1}`)

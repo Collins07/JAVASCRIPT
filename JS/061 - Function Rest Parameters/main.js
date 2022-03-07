@@ -19,8 +19,7 @@
 
 function calc(...numbers) {
 
-    console.log(`${numbers}`)
+  console.log(`${numbers}`) 
 }
 
-
-calc(30 + 40 + 17)
+calc(30 + 40 + 17 - 50)

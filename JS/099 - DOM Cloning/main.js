@@ -3,10 +3,12 @@
   - cloneNode(Deep)
 */
 
-let myP = document.querySelector("p").cloneNode(true);
-let myDiv = document.querySelector("div");
+let myP = document.querySelector("p");
+let myDiv = document.querySelector("div").cloneNode(true);
 
-myP.id = `clone`;
-myP.className = 'omar '
+myDiv.id = `clone`;
+myDiv.className = 'omar'
+myDiv.innerText = "omar samir"
+myDiv.style.cssText = "margin: 20px; background: green; width: fit-content; color: white; font-weight: bold; font-size: 25px;"
 
-myDiv.appendChild(myP);
+myP.appendChild(myDiv);

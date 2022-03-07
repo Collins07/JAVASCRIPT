@@ -43,7 +43,7 @@ let mix = "A13BS2ZX";
 // console.log(mixedContent);
 
 let mixedContent = mix.split("").filter(function(ele) {
-    return !isNaN(parseInt(ele))
+    return (parseInt(ele))
 }).map(function(ele) {
     return ele * ele
 

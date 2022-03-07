@@ -8,13 +8,14 @@
 
 console.log(document.getElementsByTagName("p")[1].attributes);
 
-let myP = document.getElementsByTagName("p")[1];
+let myP = document.getElementsByTagName("p")[0];
 
 if (myP.hasAttribute("data-src")) {
     if (myP.getAttribute("data-src") === "") {
         myP.removeAttribute("data-src");
     } else {
         myP.setAttribute("data-src", "New Value");
+        myP.innerText = "omar samir"
     }
 } else {
     console.log(`Not Found`);

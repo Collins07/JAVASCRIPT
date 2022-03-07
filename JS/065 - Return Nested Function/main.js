@@ -6,16 +6,16 @@
 
 // Example 1
 
-function sayMessage(fName, lName) {
-    let message = `Hello`;
-    // Nested Function
-    function concatMsg() {
-        message = `${message} ${fName} ${lName}`;
+function sayMessage (fName , lName){
+    let message = "hello"
+    function concatMsg () {
+        let message = `${message} ${fName} ${lName}`
     }
-    concatMsg();
+    concatMsg()
     return message;
-}
 
+
+}
 console.log(sayMessage("Osama", "Mohamed"));
 
 // Example 2

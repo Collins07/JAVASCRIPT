@@ -9,8 +9,9 @@
 
 let span = document.querySelector(".two");
 
-console.log(span.previousSibling);
+console.log(span.parentElement);
 
 span.onclick = function() {
-    span.previousSibling.remove();
+    span.previousElementSibling.innerText = "omar samir";
+    span.previousElementSibling.style.cssText = "color: green; font-size: 40px; background: black"
 }

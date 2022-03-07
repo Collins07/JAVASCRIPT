@@ -14,7 +14,7 @@
 //   console.log(`Iam Message`);
 // }
 
-// setTimeout(sayMsg, 3000, "Osama", 38);
+// setTimeout(sayMsg, 4000, "Osama");
 
 // function sayMsg(user, age) {
 //   console.log(`Iam Message For ${user} Age Is : ${age}`);

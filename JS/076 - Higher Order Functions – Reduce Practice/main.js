@@ -22,7 +22,7 @@ let finalString = removeChars
     .filter(function(ele) {
         return ele !== "@";
 
-    }).join("")
+    }).join("").toLowerCase();
     // .reduce(function(acc, current) {
     //     return `${acc}${current}`;
     // });

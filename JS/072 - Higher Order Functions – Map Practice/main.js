@@ -12,7 +12,6 @@ let ignoreNumbers = "Elz123er4o";
 // let sw = swappingCases
 //   .split("")
 //   .map(function (ele) {
-//     // Condition ? True : False
 //     return ele === ele.toUpperCase() ? ele.toLowerCase() : ele.toUpperCase();
 //   })
 //   .join("");
@@ -39,7 +38,7 @@ console.log(inv);
 let ign = ignoreNumbers
     .split("")
     .map(function(ele) {
-        return isNaN(parseInt(ele)) ? ele : "";
+        return !(parseInt(ele)) ? ele : "";
     })
     .join("");
 

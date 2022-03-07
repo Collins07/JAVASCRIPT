@@ -14,7 +14,7 @@ let myFriends = ["Ahmed", "Sayed", "Ali", "Osama", "Gamal", "Ameer"];
 console.log(myFriends);
 console.log(myFriends.slice());
 console.log(myFriends.slice(1));
-console.log(myFriends.slice(1, 3));
+console.log(myFriends.slice(0, 3));
 console.log(myFriends.slice(-3));
 console.log(myFriends.slice(1, -2));
 console.log(myFriends.slice(-4, -2));

@@ -17,10 +17,10 @@ element.style.fontWeight = "bold";
 element.style.cssText = "font-weight: bold; color: green; opacity: 0.5";
 
 element.style.removeProperty('color');
-element.style.setProperty('font-size', '40px', "important");
+element.style.setProperty('font-size', '10px', "important");
 
 
-document.styleSheets[0].rules[0].style.removeProperty("line-height")
+document.styleSheets[0].cssRules[0].style.removeProperty("line-height")
 
 
-document.styleSheets[0].rules[0].style.setProperty("background-color", "green")
+document.styleSheets[0].cssRules[0].style.setProperty("background-color", "red")

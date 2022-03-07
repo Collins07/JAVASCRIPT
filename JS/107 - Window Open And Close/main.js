@@ -20,3 +20,8 @@ setTimeout(function() {
 setTimeout(function() {
     window.open("https://google.com", "_blank", "width=400,height=400,left=300,top=10");
 }, 2000);
+
+// setTimeout(function (){
+//   window.close("" , "_self",true)
+
+// },5000)

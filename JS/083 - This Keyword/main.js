@@ -29,9 +29,7 @@ sayHello();
 
 console.log(sayHello() === window);
 
-document.getElementById("cl").onclick = function() {
-    console.log(this);
-};
+
 
 let user = {
     age: 38,
@@ -43,3 +41,8 @@ let user = {
 
 console.log(user.age);
 console.log(user.ageInDays());
+
+document.getElementById("cl").onclick = function() {
+    // console.log(document.querySelector("#cl"));
+    console.log(this);
+};

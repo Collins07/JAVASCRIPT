@@ -14,4 +14,4 @@ function sayHello(username = "Unknown", age = "Unknown") {
     return `Hello ${username} Your Age Is ${age}`;
 }
 
-console.log(sayHello());
+console.log(sayHello("omar"));
