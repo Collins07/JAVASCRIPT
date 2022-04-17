@@ -37,8 +37,8 @@ let iterator = mySet.keys();
 console.log(iterator.next().value);
 console.log(iterator.next().value);
 console.log(iterator.next().value);
-console.log(iterator.next().value);
-console.log(iterator.next());
+console.log(iterator.next().value); 
+console.log(iterator.next());// done : true;
 
 // forEach
 
@@ -48,6 +48,9 @@ console.log("#".repeat(20));
 
 // Type Of Data
 
-let myws = new WeakSet([{ A: 1, B: 2 }]);
+let myws = new WeakSet([  {A: 1 , B: 2} ]);
+// let myws = new WeakSet(["a",1 ]); //error
 
-console.log(myws);
+
+console.log(myws.size);//undefined
+console.log(myws)

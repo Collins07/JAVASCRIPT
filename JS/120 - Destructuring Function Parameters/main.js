@@ -16,9 +16,7 @@ const user = {
 
   showDetails(user);
 
+function showDetails ({theName : n , theAge :a , skills:{html , css}} = user){
+  console.log(`my name is ${n} and my age is ${a} and my html and css skill rate are ${html} and ${css}`)
 
- function showDetails({ theName: n, theAge: b, skills:{ css :c}} = user) {
-      console.log(`Your Name Is ${n}`);
-      console.log(`Your Age Is ${b}`);
-      console.log(`Your Css Skill Progress Is ${c}`);
-  };
+}

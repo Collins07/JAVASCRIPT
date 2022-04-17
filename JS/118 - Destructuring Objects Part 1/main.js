@@ -3,14 +3,12 @@
   - Destructuring Object
 */
 
-const user = {
-    theName: "omar",
-    age: 18,
-    Title: "Developer",
-    Country: "Iraq",
+const user={
+  theName: "omar",
+  age:18,
+  Title: "developer",
+  Country:"iraq",
 };
-
-
 // console.log(user.theName);
 // console.log(user.theAge);
 // console.log(user.theTitle);
@@ -27,7 +25,7 @@ const user = {
 // console.log(Title);
 // console.log(Country);
 
-const {theName , age ,Title,Country} = user ;
+const{theName,age,Title,Country}= user;
 
 console.log(theName)
 console.log(age)

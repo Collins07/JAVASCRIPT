@@ -3,13 +3,13 @@
   - Destructuring Array => Swapping Variables
 */
 
-let book = "video";
+var book = "video";
 let video = "book ";
 
 
 
 // Change Book Value
-book = video; // Book
+// book = video; // Book
 
 
 // Save Book Value In Stash

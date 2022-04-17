@@ -18,11 +18,10 @@ let myData = [1, 1, 1, 2, 3, "A"];
 
 // let myUniqueData = new Set(myData);
 // let myUniqueData = new Set([1, 1, 1, 2, 3, "A"]);
-// let myUniqueData = new Set().add(1).add(1).add(1).add(2).add(3);
+// let myUniqueData = new Set().add(1).add(1).add(1).add(2).add(3).add("A");
 let myUniqueData = new Set()
-
 myUniqueData.add(1).add(1).add(1)
-myUniqueData.add(2).add(3).add("A")
+myUniqueData.add(2).add(3).add("A").add(2)
 
 
 
@@ -34,8 +33,8 @@ console.log(myData[0])
 console.log(myUniqueData[0])
 
 console.log(myUniqueData.has("a".toUpperCase())) //True
-// myUniqueData.delete(2)
-console.log(myUniqueData.delete(2))
+myUniqueData.delete(2)
+// console.log(myUniqueData.delete(2))
 
 console.log(myUniqueData)
 console.log(myUniqueData.size)

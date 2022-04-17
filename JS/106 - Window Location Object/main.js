@@ -14,7 +14,7 @@ console.log(location);
 console.log(location.href);
 
 // location.href = "https://google.com";
-// location.href = "/#sec02";
+location.href = "/#sec02";
 // location.href = "/#sec01"
 // location.href = "https://developer.mozilla.org/en-US/docs/Web/JavaScript#reference";
 
