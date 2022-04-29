@@ -1,0 +1,21 @@
+
+body, .log {
+    left: 0;
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, serif;
+  }
+  
+  body {
+    right: 0;
+    bottom: 0;
+  }
+  
+  .indicator {
+    background: blue;
+    border-radius: 50%;
+    height: 0;
+    width: 0;
+  }
