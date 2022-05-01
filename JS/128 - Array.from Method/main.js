@@ -24,8 +24,16 @@ let myArray = [1, 1, 1, 2, 3, 4];
 let mySet = new Set(myArray);
 console.log(mySet)
 
+const newArray = Array.from(mySet)
+let val = newArray.push("omar")
+console.log(val)
 console.log(Array.from(mySet));
 
+console.log(newArray)
+
+// newArray.forEach((ele)=>{
+//   console.log(ele)
+// })
 function returen(){
   return Array.from(arguments)
 }

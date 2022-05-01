@@ -23,6 +23,7 @@
 */
 
 
+
 let myObject = {};
 let myEmptyObject = Object.create(null);
 let myMap = new Map();
@@ -36,12 +37,18 @@ console.log(myMap);
 var newObject = {
     10: "number",
     "10": "string ",
+
 }
 
 console.log(newObject[10]);
 
-
 let newMap = new Map()
+// let maap = new Map({
+//   name:"omar",
+//   function Wrn(){
+//     console.warn("error")
+//   }
+// })
 
 
 newMap.set(10, "number")
@@ -58,8 +65,21 @@ console.log( newMap.get("10"))
 console.log(newMap.delete("10"))
 console.log(myMap.get("10"))
 
+const Maap = new Map()
+Maap.set("nameee","omar")
+
+const iterator = Maap.entries()
+
+
 
 console.log("####");
 
 console.log(newObject);
 console.log(newMap)
+
+
+console.log(Maap)
+console.log(Maap.get("nameee"))
+
+console.log(iterator.next().value)
+

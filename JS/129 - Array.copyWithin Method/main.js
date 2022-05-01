@@ -21,7 +21,7 @@ let myArray = [10, 20, 30, 40, 50, "A", "B"];
 
 // myArray.copyWithin(1)
 
-
+console.log(myArray.slice(1,6))
 // myArray.copyWithin(4,5, 6 );
 
 
