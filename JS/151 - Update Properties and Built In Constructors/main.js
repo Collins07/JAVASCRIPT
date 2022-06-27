@@ -12,8 +12,8 @@ class user{
         this.u = username
         this.s = salary
     }
-    updateName(newName){
-        this.u = newName
+    updateName(ele){
+        this.u = ele
     }
 }
 

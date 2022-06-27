@@ -20,7 +20,7 @@
 */
 let tld = "com net org info edu io";
 
-let tldre = /(org|info|io)/i;
+let tldre = /(org|info|io)/ig;
 
 console.log(tld.match(tldre))
 

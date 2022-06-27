@@ -17,6 +17,7 @@ let userTwo  = new user(1,"",5000)
 
 
 console.log(userOne.i)
+console.log(userOne.u)
 console.log(userTwo.u)
 console.log(userTwo.msg)
 console.log(userTwo.msg())

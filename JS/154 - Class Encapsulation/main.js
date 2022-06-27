@@ -20,7 +20,7 @@ class user{
         let reg = /\d+/ig;
         let salary = (this.e.match(reg).join(""));
         let Num = parseInt(salary)
-        return  Num 
+        return Num 
       }
 }
 

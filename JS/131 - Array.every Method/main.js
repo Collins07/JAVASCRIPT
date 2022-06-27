@@ -15,17 +15,17 @@ const locations = {
     40: "Place 4",
   };
 
-let mainLocation = 10;
+let mainLocation = 21;
 
 let locationsArray = Object.keys(locations);
 
 console.log(locationsArray);
 
-let locationArrayNumbers = locationsArray.map((e) => +e)
+let locationArrayNumbers = locationsArray.map((e) => parseInt(e))
 
 console.log(locationArrayNumbers);
 
-let check = locationArrayNumbers.every(function (e) {
+let check = locationArrayNumbers.filter(function (e) {
     return e > this;
   }, mainLocation);
   

@@ -8,9 +8,9 @@
   pattern.test(input)
 */
 
-let names = "Sayed 1Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo";
+let names = "Sayed 12Spam 2Spam 3Spam Spam4 Spam5 Osama Ahmed Aspamo";
 
-let re = /(\bspam|spam\b)/ig;
+let re = /\d+(\bspam|spam\b)/ig;
 
 
 console.log(names.match(re))

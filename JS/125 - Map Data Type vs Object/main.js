@@ -52,6 +52,7 @@ let newMap = new Map()
 
 
 newMap.set(10, "number")
+newMap.set("+","operation")
 newMap.set("10", "String");
 newMap.set(true, "Boolean");
 newMap.set({a: 1, b: 2}, "Object");
@@ -59,6 +60,7 @@ newMap.set(function doSomething() {}, "Function");
 
 console.log( newMap.get(10))
 console.log( newMap.get("10"))
+console.log(newMap.get("+"))
 
 
 

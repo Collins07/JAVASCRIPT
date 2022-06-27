@@ -4,11 +4,12 @@
 */
 
 class user {
-    constructor(id,username,salary){
-        this.i = id
-        this.u = username
-        this.s = salary + 1000
-    }
+  constructor(id ,name ,salary){
+    this.i = id
+    this.u = name
+    this.s = salary + 5000
+
+  }
 }
 
 const UserOne = new user(1,"omar",5000)

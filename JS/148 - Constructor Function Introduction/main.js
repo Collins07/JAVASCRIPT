@@ -1,13 +1,13 @@
-function User(id,username,salary){
-    this.i = id;
-    this.u = username;
-    this.s = salary;
-}
+function User(id,name,salary){
+    this.i = id
+    this.u = name 
+    this.s = salary
 
+}
 
 const userOne = new User(1,"omar",5000)
 const userTwo = new User(2,"Samir",15000)
-const userThree = new User(3,"Shawky",3000)
+const userThree = new User(12,"osama",5000)
 
 
 

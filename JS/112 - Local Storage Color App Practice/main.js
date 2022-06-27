@@ -28,10 +28,10 @@ lis.forEach((li) => {
          li.classList.remove("active")
         
      })
-     e.currentTarget.classList.add("active")
+     li.classList.add("active")
 
-     window.localStorage.setItem("color", e.currentTarget.dataset.color)
+     window.localStorage.setItem("color", li.dataset.color)
 
-     exp.style.backgroundColor = e.currentTarget.dataset.color;
+     exp.style.backgroundColor = li.dataset.color;
     })
 })

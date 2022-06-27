@@ -23,8 +23,7 @@
 */
 
 // Type Of Data
-
-let mySet = new Set([1, 1, 1, 2, 3, "A", "A"]);
+const mySet = new Set([1,2,3,1,1,"A"])
 
 console.log(mySet);
 

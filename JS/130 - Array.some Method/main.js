@@ -49,7 +49,7 @@ let range = {
   let checkNumberInRange = nums.some(function (e) {
     // console.log(this.min);
     // console.log(this.max);
-    return e >+ this.min && e <= this.max;
+    return e >= this.min && e <= this.max;
 
   }, range);
   

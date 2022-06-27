@@ -14,6 +14,7 @@ const user = {
 };
 
 console.log(user["Addresses"]["iraq"][1])
+console.log(user["Skills"])
 console.log(user.Addresses.iraq.join(" "))
 
 const {

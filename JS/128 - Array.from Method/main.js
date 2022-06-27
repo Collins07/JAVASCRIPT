@@ -25,8 +25,11 @@ let mySet = new Set(myArray);
 console.log(mySet)
 
 const newArray = Array.from(mySet)
+
 let val = newArray.push("omar")
-console.log(val)
+
+
+
 console.log(Array.from(mySet));
 
 console.log(newArray)

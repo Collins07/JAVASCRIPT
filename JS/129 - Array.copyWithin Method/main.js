@@ -21,11 +21,11 @@ let myArray = [10, 20, 30, 40, 50, "A", "B"];
 
 // myArray.copyWithin(1)
 
-console.log(myArray.slice(1,6))
+// console.log(myArray.slice(1,6))
 // myArray.copyWithin(4,5, 6 );
 
 
-// myArray.copyWithin(4, -1); // [10, 20, 30, 40, "B", "A", "B"]
+myArray.copyWithin(0, 3); // [10, 20, 30, 40, "B", "A", "B"]
 
 // myArray.copyWithin(1, -2 ); // [10, "A", "B", 40, 50, "A", "B"]
 
