@@ -3,23 +3,41 @@
 
 let numbers = [15.60, 2, 2, 2, 4, 5, true, true, 7, "A", 2, false, 2, 8, 9];
 
-function ReturnTrue(){
-    let newArray = []
-  numbers.filter((ele)=>{
-    if(ele === true){
-        ele = 1
-        newArray.push(ele)
-    }else if(ele === false){
-        ele = 0
-        newArray.push(ele)
+
+
+function Remove(){
+let MySet = new Set(numbers)
+
+let newArray = Array.from(MySet)
+
+
+return newArray.filter((ele)=>{
+    if(typeof ele === "boolean"){
+        return "false"
+    }else if (typeof ele === "number"){
+        return ele
+
     }
-  })
-  console.log(newArray)
+}).map((e)=>{
+    if(e === true){
+
+        return e = 1
+
+    }else if (e === false){
+        return e = 0
+    }else if (e % 1 !== 0){
+       return  Math.floor(e)         
+
+    }
+    else {
+        return e
+    }
+}).sort().reverse()
+
 
 }
 
-ReturnTrue()
-
+console.log(Remove())
 
 
 // Output
